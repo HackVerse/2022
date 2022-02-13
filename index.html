@@ -1,636 +1,540 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="google-site-verification"
-      content="Exxlz7urXb5XhU5rgnhuvVPa6tegzMO-w1L4seva_x8"
-    />
 
-    <meta
-      name="description"
-      content="HackVerse - 3rd Edition of the 24 Hour Nation-Wide Hackathon at NITK, Surathkal"
-    />
-    <meta
-      name="keywords"
-      content="HackVerse, Hackathon, Nation-Wide, NITK Surathkal, Prizes, 3rd Edition"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="Exxlz7urXb5XhU5rgnhuvVPa6tegzMO-w1L4seva_x8" />
 
-    <meta
-      property="og:title"
-      content="HackVerse - 3rd Edition of One of India's Biggest Student Run Hackathons"
-    />
-    <meta
-      property="og:description"
-      content="HackVerse - 3rd Edition of the 24 Hour Nation-Wide Hackathon at NITK, Surathkal"
-    />
-    <meta
-      property="og:image"
-      content="https://raw.githubusercontent.com/HackVerse/hackverse2022/main/img/logo.webp"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="hackverse.nitk.ac.in" />
-    <link rel="icon" href="./img/logo_light.webp" />
+  <meta name="description" content="HackVerse - 3rd Edition of the 24 Hour Nation-Wide Hackathon at NITK, Surathkal" />
+  <meta name="keywords" content="HackVerse, Hackathon, Nation-Wide, NITK Surathkal, Prizes, 3rd Edition" />
 
-    <!-- Bootstrap 5 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+  <meta property="og:title" content="HackVerse - 3rd Edition of One of India's Biggest Student Run Hackathons" />
+  <meta property="og:description"
+    content="HackVerse - 3rd Edition of the 24 Hour Nation-Wide Hackathon at NITK, Surathkal" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/HackVerse/hackverse2022/main/img/logo.webp" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="hackverse.nitk.ac.in" />
+  <link rel="icon" href="./img/logo_light.webp" />
 
-    <link rel="stylesheet" href="style.css" />
-    <!-- Responsive design stylesheet-->
-    <link rel="stylesheet" href="responsive.css" />
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="./alien.css" /> -->
-    <title>Hackverse 3.0 | February 2022</title>
-  </head>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Responsive design stylesheet-->
+  <link rel="stylesheet" href="responsive.css" />
+  
 
-  <body data-bs-spy="scroll" data-bs-target="#scroll-spy" data-bs-offset="90">
-    <div class="scene">
-      <div class="space">
-        <span></span>
-        <span></span>
-        <span></span>
-        <div class="comet">
-          <div class="comet-inner"></div>
-        </div>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="./alien.css" /> -->
+  <title>Hackverse 3.0 | February 2022</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#scroll-spy" data-bs-offset="90">
+  <div class="scene">
+    <div class="space">
+      <span></span>
+      <span></span>
+      <span></span>
+      <div class="comet">
+        <div class="comet-inner"></div>
       </div>
     </div>
-    <!-- navbar -->
+  </div>
+  <!-- navbar -->
 
-    <nav id="scroll-spy" class="navbar navbar-dark fixed-top navbar-expand-lg">
-      <div class="container" data-aos="fade-up" data-aos-once="true">
-        <img
-          src="./img/logo_light.webp"
-          width="80px"
-          alt="Hackverse"
-          class="navbar-brand navbar-logo-custom"
-        />
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav navbar-nav navbar-nav-scroll">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="#home-section"
-                ><span>HOME</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-section"><span>ABOUT</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#stats-section"><span>STATS</span></a>
-            </li>
-            <!--             <li class="nav-item">
-              <a class="nav-link" href="#prizes-section"><span>PRIZES</span></a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#sponsors-section"
-                ><span>SPONSORS</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#faqs-section"><span>FAQs</span></a>
-            </li>
-          </ul>
-        </div>
+  <nav id="scroll-spy" class="navbar navbar-dark fixed-top navbar-expand-lg">
+    <div class="container" data-aos="fade-up" data-aos-once="true">
+      <img src="./img/logo_light.webp" width="80px" alt="Hackverse" class="navbar-brand navbar-logo-custom" />
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home-section"><span>HOME</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-section"><span>ABOUT</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats-section"><span>STATS</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#prizes-section"><span>PRIZES</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sponsors-section"><span>SPONSORS</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faqs-section"><span>FAQs</span></a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- Home Section -->
-    <div class="night">
-      <div class="shooting_star"></div>
-      <div class="shooting_star"></div>
-      <div class="shooting_star"></div>
-      <!-- <div class="shooting_star"></div>
+  <!-- Home Section -->
+  <div class="night">
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <div class="shooting_star"></div>
+    <!-- <div class="shooting_star"></div>
       <div class="shooting_star"></div> -->
-    </div>
+  </div>
 
-    <div class="fluid-container fill" style="position: relative">
-      <section id="home-section">
-        <div class="home fluid-container d-flex flex-column">
-          <div class="container fill">
-            <!-- Add rectangular space on the top only in the front page to shift the contents below the navbar -->
-            <div class="home-top-space-custom"></div>
-            <div class="main row main-page">
-              <div
-                class="d-flex flex-column col-text col col-md-12 col-lg-4 heading-main"
-                data-aos="fade-right"
-              >
-                <p>February 26-27, 2022</p>
-                <h1 class="h1-title">
-                  Imagine. <br />
-                  Believe. <br />
-                  Achieve! <br />
-                </h1>
-                <br />
-                <p>24-hour long hackathon · By NITK</p>
-                <div
-                  class="apply-button"
-                  data-hackathon-slug="hackverse2022"
-                  data-button-theme="light"
-                  style="width: 312px"
-                ></div>
-              </div>
-              <div
-                data-aos="fade-left"
-                class="col col-md-12 col-lg-8 home-page-logo"
-              >
-                <img
-                  width="95%"
-                  src="./img/logo_long.webp"
-                  alt="HackVerse 3.0"
-                />
-              </div>
+  <div class="fluid-container fill" style="position: relative">
+    <section id="home-section">
+      <div class="home fluid-container d-flex flex-column">
+        <div class="container fill">
+          <!-- Add rectangular space on the top only in the front page to shift the contents below the navbar -->
+          <div class="home-top-space-custom"></div>
+          <div class="main row main-page">
+            <div class="d-flex flex-column col-text col col-md-12 col-lg-4 heading-main" data-aos="fade-right">
+              <p>February 26-27, 2022</p>
+              <h1 class="h1-title">
+                Imagine. <br />
+                Believe. <br />
+                Achieve! <br />
+              </h1>
+              <br />
+              <p>24-hour long hackathon · By NITK</p>
+              <div class="apply-button" data-hackathon-slug="hackverse2022" data-button-theme="light"
+                style="width: 312px"></div>
+            </div>
+            <div data-aos="fade-left" class="col col-md-12 col-lg-8 home-page-logo">
+              <img width="95%" src="./img/logo_long.webp" alt="HackVerse 3.0" />
             </div>
           </div>
         </div>
-      </section>
-      <!-- About hackverse -->
-      <section id="about-section">
-        <div class="about fluid-container d-flex align-items-center">
-          <div class="container">
-            <div class="row about-hackverse-container">
-              <div class="col col-md-12 col-lg-6" data-aos="fade-right">
-                <h1 class="h2-title title-about-hackverse mb-5">
-                  About Hackverse 3.0
-                </h1>
-                <p class="h2-text text-hackverse">
-                  <strong>HackVerse</strong> serves as a platform to encourage
-                  enthusiastic minds to brainstorm on solutions for challenging
-                  issues from all over India. The unified motive of gathering
-                  all like-minded hackers to our alma mater led to the creation
-                  of the idea in NITK Surathkal, the first of its kind. We
-                  provide a platform for innovations where developers can test
-                  and showcase their potential to the best of their abilities.
-                  The hackathon also comprises keynotes and workshops by
-                  executives from the industry.
-                </p>
-                <a href="https://hackverse.nitk.ac.in/2021/">
-                  <button
-                    class="revisit d-flex align-items-center justify-content-center"
-                  >
-                    <img src="./img/revisit.webp" width="28px" alt="re" />
-                    <span>&nbsp; Revisit Hackverse 2.0 </span>
-                  </button>
-                </a>
-              </div>
-              <div
-                class="col col-md-6 d-flex justify-content-end align-items-center"
-              >
-                <img
-                  data-aos="zoom-in"
-                  src="./img/logo.webp"
-                  class="img-logo"
-                  width="75%"
-                  alt="Hackverse"
-                />
-              </div>
+      </div>
+    </section>
+    <!-- About hackverse -->
+    <section id="about-section">
+      <div class="about fluid-container d-flex align-items-center">
+        <div class="container">
+          <div class="row about-hackverse-container">
+            <div class="col col-md-12 col-lg-6" data-aos="fade-right">
+              <h1 class="h2-title title-about-hackverse mb-5">
+                About Hackverse 3.0
+              </h1>
+              <p class="h2-text text-hackverse">
+                <strong>HackVerse</strong> serves as a platform to encourage
+                enthusiastic minds to brainstorm on solutions for challenging
+                issues from all over India. The unified motive of gathering
+                all like-minded hackers to our alma mater led to the creation
+                of the idea in NITK Surathkal, the first of its kind. We
+                provide a platform for innovations where developers can test
+                and showcase their potential to the best of their abilities.
+                The hackathon also comprises keynotes and workshops by
+                executives from the industry.
+              </p>
+              <a href="https://hackverse.nitk.ac.in/2021/">
+                <button class="revisit d-flex align-items-center justify-content-center">
+                  <img src="./img/revisit.webp" width="28px" alt="re" />
+                  <span>&nbsp; Revisit Hackverse 2.0 </span>
+                </button>
+              </a>
+            </div>
+            <div class="col col-md-6 d-flex justify-content-end align-items-center">
+              <img data-aos="zoom-in" src="./img/logo.webp" class="img-logo" width="75%" alt="Hackverse" />
             </div>
           </div>
         </div>
-      </section>
-      <!-- Stats Section -->
-      <section id="stats-section">
-        <div class="fluid-container stats d-flex flex-column">
-          <div class="container fill justify-content-center">
-            <h1 class="text-center bold-t1" data-aos="fade-down">
-              HackVerse 2.0 Stats
-            </h1>
-            <div
-              class="container d-flex justify-content-around align-items-center stats-items"
-            >
-              <div
-                class="d-flex justify-content-center align-items-center flex-column institute_icon"
-              >
-                <img
-                  class="mb-md-5"
-                  src="./img/programmer.webp"
-                  width="192px"
-                  alt="programmer"
-                  data-aos="zoom-in"
-                />
-                <h1 class="no-margin bold-t1 milestone-number">
-                  <span class="number-holder">2800</span> +
-                </h1>
-                <p class="no-margin">Total Registerations</p>
-              </div>
-              <div
-                class="d-flex justify-content-center align-items-center flex-column institute_icon"
-              >
-                <img
-                  class="mb-md-5"
-                  src="./img/hacker.webp"
-                  width="192px"
-                  alt="hackers"
-                  data-aos="zoom-in"
-                />
-                <h1 class="bold-t1 no-margin milestone-number">
-                  <span class="number-holder">700</span> +
-                </h1>
-                <p class="no-margin">Hackers Hosted</p>
-              </div>
-              <div
-                class="d-flex justify-content-center align-items-center flex-column institute_icon"
-              >
-                <img
-                  class="mb-md-5"
-                  src="./img/institute.webp"
-                  width="192px"
-                  alt="institute"
-                  data-aos="zoom-in"
-                />
-                <h1 class="bold-t1 no-margin milestone-number">
-                  <span class="number-holder">140</span> +
-                </h1>
-                <p class="no-margin">Engineering Institutes</p>
-              </div>
+      </div>
+    </section>
+    <!-- Stats Section -->
+    <section id="stats-section">
+      <div class="fluid-container stats d-flex flex-column">
+        <div class="container fill justify-content-center">
+          <h1 class="text-center bold-t1" data-aos="fade-down">
+            HackVerse 2.0 Stats
+          </h1>
+          <div class="container d-flex justify-content-around align-items-center stats-items">
+            <div class="d-flex justify-content-center align-items-center flex-column institute_icon">
+              <img class="mb-md-5" src="./img/programmer.webp" width="192px" alt="programmer" data-aos="zoom-in" />
+              <h1 class="no-margin bold-t1 milestone-number">
+                <span class="number-holder">2800</span> +
+              </h1>
+              <p class="no-margin">Total Registerations</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center flex-column institute_icon">
+              <img class="mb-md-5" src="./img/hacker.webp" width="192px" alt="hackers" data-aos="zoom-in" />
+              <h1 class="bold-t1 no-margin milestone-number">
+                <span class="number-holder">700</span> +
+              </h1>
+              <p class="no-margin">Hackers Hosted</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center flex-column institute_icon">
+              <img class="mb-md-5" src="./img/institute.webp" width="192px" alt="institute" data-aos="zoom-in" />
+              <h1 class="bold-t1 no-margin milestone-number">
+                <span class="number-holder">140</span> +
+              </h1>
+              <p class="no-margin">Engineering Institutes</p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Prizes Section -->
+
+    <section id="prizes-section" style="margin-bottom: 1.1rem; background-color: #d1e5dc;">
+      <!-- Prizes -->
+      <section id="prizes">
+
+
+        <div class="container">
+          <div class="row" style="margin-bottom: 30px;">
+            <div class="col-12 col-md-12">
+              <div class="section-heading-2">
+                <h4 class="text-center" style="margin-top: 40px; color: white;font-size: 3.5rem;">
+                  HackVerse 3.0 Prizes
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="column">
+              <div class="card">
+                <div class="content">
+                  <div class="front">
+                    <span>2ND Prize</span>
+                    <img class="profile" width="100%" src="./img/prize_section_imgs/Asset 1.png" alt="Neymar">
+                    <h2 class="profilee" width="100%"><span>₹</span>35,000</h2>
+                  </div>
+                  <div class="back from-left">
+                    <div class="description">
+                      <ul style="list-style-type: square;">
+                        <li>Devfolio and DigitalOcean Goodies for each team member </li>
+                        <li>Unlimited use of <a href="https://www.clerky.com/pricing">Clerky </a>
+                          standard Fundraising, Hiring, Commercial, and Maintenance
+                          products for the lifetime of
+                          your startup worth USD 799.
+                        </li>
+                        <li>GeeksForGeeks course worth ₹3500 for each team member</li>
+                        <li>3-month free membership to Qfuss</li>
+                        <li>Learning While Travelling academy's 6-month free
+                          membership(Worth ₹1499 per month)
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column" style="position: relative; top: -20px;">
+              <div class="card">
+                <div class="content">
+                  <div class="front">
+                    <span>1ST Prize</span>
+                    <img class="profile" width="100%" src="./img/prize_section_imgs/Asset 2.png" alt="Prize1">
+                    <h2 class="profilee" width="100%"><span>₹</span>50,000</h2>
+                  </div>
+                  <div class="back from-bottom">
+                    <div class="description">
+                      <ul style="list-style-type: square;">
+                        <li>Devfolio and DigitalOcean Goodies for each team member </li>
+                        <li>Unlimited use of <a href="https://www.clerky.com/pricing">Clerky </a>
+                          standard Fundraising, Hiring, Commercial, and Maintenance
+                          products for the lifetime of
+                          your startup worth USD 799.
+                        </li>
+                        <li>GeeksForGeeks course worth ₹3500 for each team member</li>
+                        <li>3-month free membership to Qfuss</li>
+                        <li>Learning While Travelling academy's 6-month free
+                          membership(Worth ₹1499 per month)
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="content">
+                  <div class="front">
+                    <span>3rd Prize</span>
+                    <img class="profile" width="100%" src="./img/prize_section_imgs/Asset 3.png" alt="3rd prize">
+                    <h2 class="profilee" width="100%"><span>₹</span>25,000</h2>
+                  </div>
+                  <div class="back from-right">
+                    <div class="description">
+                      <ul style="list-style-type: square;">
+                        <li>Devfolio and DigitalOcean Goodies for each team member </li>
+                        <li>Unlimited use of <a href="https://www.clerky.com/pricing">Clerky </a>
+                          standard Fundraising, Hiring, Commercial, and Maintenance
+                          products for the lifetime of
+                          your startup worth USD 799.
+                        </li>
+                        <li>GeeksForGeeks course worth ₹3500 for each team member</li>
+                        <li>3-month free membership to Qfuss</li>
+                        <li>Learning While Travelling academy's 6-month free
+                          membership(Worth ₹1499 per month)
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- <div class="row">
+            <div class="col-12 col-md-12">
+              <div class="section-heading-2">
+                <h4 class="text-center" style="
+              margin-top: 40px;
+              color: white;
+              font-size: 1.8em !important;
+            ">
+                  <a href="#tracks">Track Prizes</a> worth ₹50,000 and more
+                  available
+                </h4>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="row" style="padding-bottom: 30px">
+                    <div class="col-12">
+                        <div class="section-heading-2" style="
+                    margin-top: 40px;
+                    margin-bottom: 0px !important;
+                    font-size: 2.5em;">
+                            <h4 class="text-center" style="color:black">Participation Perks</h4>
+                        </div>
+                    </div>
+                </div> -->
+
+          <!-- <div class="row">
+                    <div class="col-12">
+                        <div class="prize-wrapper">
+                            <div class="prize-card prize-card-size-p">
+                                <input type="checkbox" id="card-p" class="more" aria-hidden="true" />
+                                <div class="prize-content">
+                                    <div class="front"
+                                        style="background: linear-gradient(180deg,rgb(0, 215, 253),rgb(219, 247, 252)) !important;">
+                                        <div class="inner">
+                                            <div class="description">
+                                                <ul
+                                                    style="list-style-type: square; color:WHITE;padding-inline-start: 10px;">
+                                                    <li>Participation Certificates</li>
+                                                    <li>GeeksforGeeks Discount Coupon worth ₹300</li>
+                                                    <li>10% Discount for membership with Learn While Travelling</li>
+                                                    <li>Replit Hacker plan for 3 months</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
       </section>
+    </section>
 
-      <!-- Prizes Section -->
-      <section id="prizes-section"></section>
-
-      <!-- Sponsors Section -->
-      <section id="sponsors-section">
-        <div class="fluid-container sponsor-us" id="sponsor">
+    <!-- Sponsors Section -->
+    <section id="sponsors-section">
+      <div class="fluid-container sponsor-us" id="sponsor">
+        <div class="container fill justify-content-center pt-5 pb-3" data-aos="zoom-out">
+          <h1 class="text-center bold-t1 mt-5">Sponsors</h1>
           <div
-            class="container fill justify-content-center pt-5 pb-3"
-            data-aos="zoom-out"
-          >
-            <h1 class="text-center bold-t1 mt-5">Sponsors</h1>
-            <div
-              class="d-flex pt-4 pb-4 justify-content-center align-items-center align-self-stretch flex-wrap sponsor-container"
-            >
-              <a
-                href="https://devfolio.co/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="./img/Devfolio_Logo-Colored.webp"
-                  alt="Devfolio"
-                  class="p-3 m-3"
-                  style="width: 20vw"
-              /></a>
-              <a
-                href="https://filecoin.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="./img/Filecoin Coloured White Text.webp"
-                  alt="Filecoin"
-                  class="p-3 m-3"
-                  style="width: 20vw"
-                />
-              </a>
-              <a
-                href="https://polygon.technology/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="./img/Polygon_Logo-Colored.webp"
-                  alt="Polygon"
-                  class="p-3 m-3"
-                  style="width: 20vw"
-                />
-              </a>
-              <a
-                href="https://tezos.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="./img/Tezos_Logo-Colored.webp"
-                  alt="Tezos"
-                  class="p-3 m-3"
-                  style="width: 20vw"
-                />
-              </a>
-              <a
-                href="https://celo.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="./img/Celo Logo Color.webp"
-                  alt="Celo"
-                  class="p-3 m-3"
-                  style="width: 20vw"
-                />
-              </a>
-              <a
-                href="https://rosenfeldmedia.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="./img/rosenfeld.webp"
-                  alt="Rosenfeld"
-                  class="p-3 m-3"
-                  style="width: 20vw"
-                />
-              </a>
-              <a
-                href="https://www.clerky.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="./img/Clerky_Logo.webp"
-                  alt="Leading Learners"
-                  class="p-3 m-3"
-                  style="width: 30vw"
-                />
-              </a>
-              <a
-                href="https://www.leadlearners.ca/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="./img/Leading_Learners_Logo.webp"
-                  alt="Leading Learners"
-                  class="p-3 m-3"
-                  style="width: 30vw"
-                />
-              </a>
-              
-            </div>
-          </div>
-          <div
-            class="container fill pt-5 pb-5 align-items-center sponsor-ads"
-            data-aos="fade-in"
-          >
-            <h3 class="no-margin bold-t2">Interested in sponsoring?</h3>
-            <a href="mailto:hackverse@nitk.edu.in" target="_blank">
-              <button
-                class="sponsor fill d-flex justify-content-center align-items-center"
-                style="width: 100%; height: 100%"
-              >
-                Get in Touch!
-              </button>
+            class="d-flex pt-4 pb-4 justify-content-center align-items-center align-self-stretch flex-wrap sponsor-container">
+            <a href="https://devfolio.co/" target="_blank" rel="noopener noreferrer">
+              <img src="./img/Devfolio_Logo-Colored.webp" alt="Devfolio" class="p-3 m-3" style="width: 20vw" /></a>
+            <a href="https://filecoin.io/" target="_blank" rel="noopener noreferrer">
+              <img src="./img/Filecoin Coloured White Text.webp" alt="Filecoin" class="p-3 m-3" style="width: 20vw" />
             </a>
+            <a href="https://polygon.technology/" target="_blank" rel="noopener noreferrer"><img
+                src="./img/Polygon_Logo-Colored.webp" alt="Polygon" class="p-3 m-3" style="width: 20vw" />
+            </a>
+            <a href="https://tezos.com/" target="_blank" rel="noopener noreferrer"><img
+                src="./img/Tezos_Logo-Colored.webp" alt="Tezos" class="p-3 m-3" style="width: 20vw" />
+            </a>
+            <a href="https://celo.org/" target="_blank" rel="noopener noreferrer"><img src="./img/Celo Logo Color.webp"
+                alt="Celo" class="p-3 m-3" style="width: 20vw" />
+            </a>
+            <a href="https://rosenfeldmedia.com/" target="_blank" rel="noopener noreferrer"><img
+                src="./img/rosenfeld.webp" alt="Rosenfeld" class="p-3 m-3" style="width: 20vw" />
+            </a>
+            <a href="https://www.clerky.com/" target="_blank" rel="noopener noreferrer"><img
+                src="./img/Clerky_Logo.webp" alt="Leading Learners" class="p-3 m-3" style="width: 30vw" />
+            </a>
+            <a href="https://www.leadlearners.ca/" target="_blank" rel="noopener noreferrer"><img
+                src="./img/Leading_Learners_Logo.webp" alt="Leading Learners" class="p-3 m-3" style="width: 30vw" />
+            </a>
+
           </div>
         </div>
-      </section>
+        <div class="container fill pt-5 pb-5 align-items-center sponsor-ads" data-aos="fade-in">
+          <h3 class="no-margin bold-t2">Interested in sponsoring?</h3>
+          <a href="mailto:hackverse@nitk.edu.in" target="_blank">
+            <button class="sponsor fill d-flex justify-content-center align-items-center"
+              style="width: 100%; height: 100%">
+              Get in Touch!
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <!-- FAQ section -->
-      <section id="faqs-section">
-        <div class="fluid-container faq">
-          <div class="container faq-container" data-aos="fade-in">
-            <h1 class="bold-t1">
-              Frequently Asked
-              <br />
-              Questions <br />
-              <br />
-            </h1>
+    <!-- FAQ section -->
+    <section id="faqs-section">
+      <div class="fluid-container faq">
+        <div class="container faq-container" data-aos="fade-in">
+          <h1 class="bold-t1">
+            Frequently Asked
+            <br />
+            Questions <br />
+            <br />
+          </h1>
 
-            <div class="accordion" id="faq-list">
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq1"
-                        aria-expanded="false"
-                        aria-controls="faq1"
-                      >
-                        Is this hackathon an online event or offline?
-                      </button>
-                    </h2>
-                    <div
-                      class="accordion-collapse collapse"
-                      id="faq1"
-                      data-bs-parent="#faq-list"
-                    >
-                      <div class="accordion-body">
-                        Hackverse 3.0 is an online event.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq2"
-                        aria-expanded="false"
-                        aria-controls="faq2"
-                      >
-                        Who is eligible to apply?
-                      </button>
-                    </h2>
-                    <div
-                      class="accordion-collapse collapse"
-                      id="faq2"
-                      data-bs-parent="#faq-list"
-                    >
-                      <div class="accordion-body">
-                        Only Current Students (both Indian and International)
-                        are allowed to apply.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq3"
-                        aria-expanded="false"
-                        aria-controls="faq3"
-                      >
-                        Is there any registration fee?
-                      </button>
-                    </h2>
-                    <div
-                      class="accordion-collapse collapse"
-                      id="faq3"
-                      data-bs-parent="#faq-list"
-                    >
-                      <div class="accordion-body">
-                        No. Registrations are completely free of cost.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq4"
-                        aria-expanded="false"
-                        aria-controls="faq4"
-                      >
-                        What is the selection criteria?
-                      </button>
-                    </h2>
-                    <div
-                      class="accordion-collapse collapse"
-                      id="faq4"
-                      data-bs-parent="#faq-list"
-                    >
-                      <div class="accordion-body">
-                        We are looking for people who innovate and can build
-                        crazy, unique solutions to real-world problems. Tell us
-                        why you want to be a part of HackVerse, any
-                        accomplishments you are proud of and anything else which
-                        could strengthen your application.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq5"
-                        aria-expanded="false"
-                        aria-controls="faq5"
-                      >
-                        Can I participate without a team?
-                      </button>
-                    </h2>
-                    <div
-                      class="accordion-collapse collapse"
-                      id="faq5"
-                      data-bs-parent="#faq-list"
-                    >
-                      <div class="accordion-body">
-                        No, Hackverse is a team event. Student teams need a
-                        minimum of two members but a maximum of three. However,
-                        you can submit the application alone and form teams
-                        after selection with other selected participants.
-                      </div>
+          <div class="accordion" id="faq-list">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                      Is this hackathon an online event or offline?
+                    </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="faq1" data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                      Hackverse 3.0 is an online event.
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq6"
-                        aria-expanded="false"
-                        aria-controls="faq6"
-                      >
-                        What are the perks of participating in this hackathon?
-                      </button>
-                    </h2>
-                    <div
-                      class="accordion-collapse collapse"
-                      id="faq6"
-                      data-bs-parent="#faq-list"
-                    >
-                      <div class="accordion-body">
-                        The hackathon will instantly increase your knowledge and
-                        skill level and will serve as a platform to socialize
-                        with the tech community. Cash prizes and other perks are
-                        in store for the winners and cool swag for all
-                        participants.
-                      </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                      Who is eligible to apply?
+                    </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="faq2" data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                      Only Current Students (both Indian and International)
+                      are allowed to apply.
                     </div>
                   </div>
+                </div>
 
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq7"
-                        aria-expanded="false"
-                        aria-controls="faq7"
-                      >
-                        Can I participate without a computer science background?
-                      </button>
-                    </h2>
-                    <div
-                      class="accordion-collapse collapse"
-                      id="faq7"
-                      data-bs-parent="#faq-list"
-                    >
-                      <div class="accordion-body">
-                        Yes. Creativity is independent of your technical skills.
-                        You can learn the tools and technologies anytime.
-                      </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                      Is there any registration fee?
+                    </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="faq3" data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                      No. Registrations are completely free of cost.
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq8"
-                        aria-expanded="false"
-                        aria-controls="faq8"
-                      >
-                        Can I start working on my hack before the event?
-                      </button>
-                    </h2>
-                    <div
-                      class="accordion-collapse collapse"
-                      id="faq8"
-                      data-bs-parent="#faq-list"
-                    >
-                      <div class="accordion-body">
-                        Please refer to our Terms and Conditions.
-                      </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                      What is the selection criteria?
+                    </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="faq4" data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                      We are looking for people who innovate and can build
+                      crazy, unique solutions to real-world problems. Tell us
+                      why you want to be a part of HackVerse, any
+                      accomplishments you are proud of and anything else which
+                      could strengthen your application.
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq9"
-                        aria-expanded="false"
-                        aria-controls="faq9"
-                      >
-                        Still got questions?
-                      </button>
-                    </h2>
-                    <div
-                      class="accordion-collapse collapse"
-                      id="faq9"
-                      data-bs-parent="#faq-list"
-                    >
-                      <div class="accordion-body">
-                        Please join our Telegram Channel: @hackverse, and ask
-                        your question, one of the organizers will get in touch
-                        with you.
-                      </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                      Can I participate without a team?
+                    </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="faq5" data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                      No, Hackverse is a team event. Student teams need a
+                      minimum of two members but a maximum of three. However,
+                      you can submit the application alone and form teams
+                      after selection with other selected participants.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                      What are the perks of participating in this hackathon?
+                    </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="faq6" data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                      The hackathon will instantly increase your knowledge and
+                      skill level and will serve as a platform to socialize
+                      with the tech community. Cash prizes and other perks are
+                      in store for the winners and cool swag for all
+                      participants.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                      Can I participate without a computer science background?
+                    </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="faq7" data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                      Yes. Creativity is independent of your technical skills.
+                      You can learn the tools and technologies anytime.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                      Can I start working on my hack before the event?
+                    </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="faq8" data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                      Please refer to our Terms and Conditions.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">
+                      Still got questions?
+                    </button>
+                  </h2>
+                  <div class="accordion-collapse collapse" id="faq9" data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                      Please join our Telegram Channel: @hackverse, and ask
+                      your question, one of the organizers will get in touch
+                      with you.
                     </div>
                   </div>
                 </div>
@@ -638,24 +542,25 @@
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <!-- Footer -->
-    <div class="fluid-container footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-4 footer-container">
-            <h2 class="bold-t1 font-size">HackVerse 3.0</h2>
-            <p class="font-size">Hack till you crack it!</p>
-            <p class="lead mt-5">
-              <i class="bi bi-geo-alt-fill"></i> &nbsp; NITK, Surathkal
-            </p>
-            <p class="lead">
-              <i class="bi bi-envelope-check-fill"></i> &nbsp;
-              hackverse@nitk.edu.in
-            </p>
-          </div>
-          <!--           <div class="col-12 col-lg-4 community-name">
+      </div>
+    </section>
+  </div>
+  <!-- Footer -->
+  <div class="fluid-container footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 footer-container">
+          <h2 class="bold-t1 font-size">HackVerse 3.0</h2>
+          <p class="font-size">Hack till you crack it!</p>
+          <p class="lead mt-5">
+            <i class="bi bi-geo-alt-fill"></i> &nbsp; NITK, Surathkal
+          </p>
+          <p class="lead">
+            <i class="bi bi-envelope-check-fill"></i> &nbsp;
+            hackverse@nitk.edu.in
+          </p>
+        </div>
+        <!--           <div class="col-12 col-lg-4 community-name">
             <h5 class="mb-3 text-align">Community Partners</h5>
             <p class="lead no-margin">
               <i class="bi bi-dot"></i>
@@ -726,135 +631,82 @@
               >
             </p>
           </div> -->
-          <div
-            class="col-12 col-lg-4 d-flex align-items-center justify-content-evenly social-media-icon"
-          >
-            <a
-              class="social-icons"
-              href="http://www.facebook.com/hackverse/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img src="img/facebook.svg" alt="facebook"
-            /></a>
-            <a
-              class="social-icons"
-              href="http://instagram.com/hackversenitk/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="img/instagram.svg" alt="instagram" />
-            </a>
-            <a
-              class="social-icons"
-              href="http://twitter.com/hackversenitk"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="img/twitter.svg" alt="twitter"
-            /></a>
-            <a
-              class="social-icons"
-              href="http://linkedin.com/company/hackverse"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="img/linkedin.svg" alt="linkedin"
-            /></a>
-            <a
-              class="social-icons"
-              href="http://t.me/hackverse"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="img/telegram.svg" alt="telegram"
-            /></a>
-            <a
-              class="social-icons"
-              href="https://www.youtube.com/channel/UC_hR3RkqNKQMDG1R2hpbSoA"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img src="img/youtube.svg" alt="youtube"
-            /></a>
-          </div>
-        </div>
-        <div class="row campus mt-5">
-          <div class="col-12">
-            <h5 class="mb-3">Campus</h5>
-          </div>
-          <div class="col-md-2 col-6 py-3">
-            <img src="img/nitk/01.webp" alt="NITK Campus" />
-          </div>
-          <div class="col-md-2 col-6 py-3">
-            <img src="img/nitk/02.webp" alt="NITK Campus" />
-          </div>
-          <div class="col-md-2 col-6 py-3">
-            <img src="img/nitk/03.webp" alt="NITK Campus" />
-          </div>
-          <div class="col-md-2 col-6 py-3">
-            <img src="img/nitk/04.webp" alt="NITK Campus" />
-          </div>
-          <div class="col-md-2 col-6 py-3">
-            <img src="img/nitk/05.webp" alt="NITK Campus" />
-          </div>
-          <div class="col-md-2 col-6 py-3">
-            <img src="img/nitk/06.webp" alt="NITK Campus" />
-          </div>
-        </div>
-        <div
-          class="fluid-container d-flex copyright mt-5 justify-content-between copy-right-tags"
-        >
-          <p>
-            <a
-              class="me-4"
-              href="https://devfolio.co/code-of-conduct"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Code of Conduct</a
-            >
-            <a
-              href="./docs/HackVerse Terms & Conditions.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Terms & Conditions</a
-            >
-          </p>
-          <p>
-            Copyright &copy; 2022 All rights reserved | Made with
-            <i class="bi bi-heart-fill"></i> by Hackverse Team
-          </p>
+        <div class="col-12 col-lg-4 d-flex align-items-center justify-content-evenly social-media-icon">
+          <a class="social-icons" href="http://www.facebook.com/hackverse/" target="_blank"
+            rel="noopener noreferrer"><img src="img/facebook.svg" alt="facebook" /></a>
+          <a class="social-icons" href="http://instagram.com/hackversenitk/" target="_blank" rel="noopener noreferrer">
+            <img src="img/instagram.svg" alt="instagram" />
+          </a>
+          <a class="social-icons" href="http://twitter.com/hackversenitk" target="_blank" rel="noopener noreferrer">
+            <img src="img/twitter.svg" alt="twitter" /></a>
+          <a class="social-icons" href="http://linkedin.com/company/hackverse" target="_blank"
+            rel="noopener noreferrer">
+            <img src="img/linkedin.svg" alt="linkedin" /></a>
+          <a class="social-icons" href="http://t.me/hackverse" target="_blank" rel="noopener noreferrer">
+            <img src="img/telegram.svg" alt="telegram" /></a>
+          <a class="social-icons" href="https://www.youtube.com/channel/UC_hR3RkqNKQMDG1R2hpbSoA" target="_blank"
+            rel="noopener noreferrer"><img src="img/youtube.svg" alt="youtube" /></a>
         </div>
       </div>
+      <div class="row campus mt-5">
+        <div class="col-12">
+          <h5 class="mb-3">Campus</h5>
+        </div>
+        <div class="col-md-2 col-6 py-3">
+          <img src="img/nitk/01.webp" alt="NITK Campus" />
+        </div>
+        <div class="col-md-2 col-6 py-3">
+          <img src="img/nitk/02.webp" alt="NITK Campus" />
+        </div>
+        <div class="col-md-2 col-6 py-3">
+          <img src="img/nitk/03.webp" alt="NITK Campus" />
+        </div>
+        <div class="col-md-2 col-6 py-3">
+          <img src="img/nitk/04.webp" alt="NITK Campus" />
+        </div>
+        <div class="col-md-2 col-6 py-3">
+          <img src="img/nitk/05.webp" alt="NITK Campus" />
+        </div>
+        <div class="col-md-2 col-6 py-3">
+          <img src="img/nitk/06.webp" alt="NITK Campus" />
+        </div>
+      </div>
+      <div class="fluid-container d-flex copyright mt-5 justify-content-between copy-right-tags">
+        <p>
+          <a class="me-4" href="https://devfolio.co/code-of-conduct" target="_blank" rel="noopener noreferrer">Code of
+            Conduct</a>
+          <a href="./docs/HackVerse Terms & Conditions.pdf" target="_blank" rel="noopener noreferrer">
+            Terms & Conditions</a>
+        </p>
+        <p>
+          Copyright &copy; 2022 All rights reserved | Made with
+          <i class="bi bi-heart-fill"></i> by Hackverse Team
+        </p>
+      </div>
     </div>
+  </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-149404272-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149404272-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-      gtag("config", "UA-149404272-1");
-    </script>
+    gtag("config", "UA-149404272-1");
+  </script>
 
-    <script src="main.js"></script>
-  </body>
+  <script src="main.js"></script>
+</body>
+
 </html>
