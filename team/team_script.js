@@ -1,111 +1,92 @@
 var link = "https://google.com"
 var name = "FirstName LastName"
 
-let p_info = [{
-        name: 'Dr.K.Balaveera Reddy',
-        image_path: 'patrons/chairman.jpg',
-        email: '#',
-        linkedin: '#',
-        designation: 'Chairman BOG'
-    },
+let p_info = [
     {
-        name: 'Prof. Karanam Umamaheshwar Rao',
-        image_path: 'patrons/Director.jpg',
+        name: 'Prof. Udaykumar R. Yaragatti',
+        image_path: 'patrons/Director.webp',
         email: 'director@nitk.ac.in',
-        linkedin: 'https://www.linkedin.com/in/k-umamaheshwar-rao-623a4373',
+        linkedin: 'https://www.linkedin.com/in/udaykumar-r-yaragatti-559a1514/',
         designation: 'Director'
     }
 ]
 
-let adv_info = [{
-        name: 'Prof. Ananthanarayana V.S.',
-        image_path: 'adv-com/anvs.jpg',
-        email: 'dydirector@nitk.edu.in',
-        linkedin: '#',
-        designation: 'Deputy Director'
-    },
+let adv_info = [
     {
-        name: 'Prof. A. Nityananda Shetty',
-        image_path: 'adv-com/ANS.jpg',
+        name: 'Prof. Vidya Shetty',
+        image_path: 'adv-com/vidyashetty.webp',
         email: 'deanacademic@nitk.edu.in',
         linkedin: '#',
         designation: 'Dean Academic'
     },
     {
-        name: 'Prof. K. Panduranga Vittal',
-        image_path: 'adv-com/kpv1.jpg',
+        name: 'Prof. Vijay Desai',
+        image_path: 'adv-com/Dean_Alumni_Affairs.webp',
         email: 'deanaair@nitk.edu.in',
-        linkedin: 'https://in.linkedin.com/pub/dr-panduranga-vittal-k/19/541/43a',
+        linkedin: '#',
         designation: 'Dean Alumni Affairs and Institutional Relations'
     },
     {
-        name: 'Prof. Aloysius Henry Sequeira',
-        image_path: 'adv-com/ahs.jpg',
+        name: 'Prof. M.S. Bhat',
+        image_path: 'adv-com/Dean_Faculty_Welfare.webp',
         email: 'ahs@nitk.ac.in',
         linkedin: '#',
         designation: 'Dean Faculty Welfare'
     },
     {
-        name: 'Prof. Subhash C. Yaragal',
-        image_path: 'adv-com/subhas.jpg',
+        name: 'Prof. K. S. Babu Narayan',
+        image_path: 'adv-com/KSBN.webp',
         email: 'dean_pd@nitk.edu.in',
         linkedin: '#',
         designation: 'Dean Planning & Development'
     },
     {
-        name: 'Prof. U. Shripathi Acharya',
-        image_path: 'adv-com/sripathi.png',
+        name: 'Prof. Satybodh M. Kulkarni',
+        image_path: 'adv-com/Sathyabodha_Kulkarni.webp',
         email: 'dean.rc@nitk.edu.in',
         linkedin: '#',
         designation: 'Dean Research & Consultancy'
     },
     {
-        name: 'Prof. Jagannath Nayak',
-        image_path: 'adv-com/jagannath.jpg',
+        name: 'Prof. Narendranath S',
+        image_path: 'adv-com/Narendranath_DSW.webp',
         email: 'jagan@nitk.ac.in',
         linkedin: '#',
         designation: 'Dean Students Welfare'
     },
     {
-        name: 'Prof. Ashvini Chaturvedi',
-        image_path: 'adv-com/ashv.png',
+        name: 'Dr. Manjunatha Sharma K',
+        image_path: 'adv-com/Associate Dean MSK.webp',
         email: 'ashvini@nitk.ac.in',
         linkedin: '#',
         designation: 'Associate Dean'
     },
     {
-        name: 'Prof. Vidya Shetty K',
-        image_path: 'adv-com/vidyashetty.jpg',
+        name: 'Dr. Ramesh Kini M',
+        image_path: 'adv-com/ramesh-kini-m-image.webp',
         email: 'vidyaks95@nitk.ac.in',
         linkedin: '#',
         designation: 'Associate Dean'
-    },
-    {
-        name: "Prof. S. M. Murigendrappa",
-        image_path: "adv-com/S M Murigendrappa-05.JPG",
-        email: "smm@nitk.ac.in",
-        linkedin: "#",
-        designation: "Chairman, Diamond jubilee Core Committee"
     }
 ]
 
 let fac_info = [{
         name: 'Dr. Anand Kumar M.',
-        image_path: 'fac-ads/anandkumar.png',
+        image_path: 'fac-ads/anandkumar.webp',
         email: 'm_anandkumar.nitk.edu.in',
         linkedin: '#',
         designation: 'Assistant Professor'
     },
     {
         name: 'Dr. Sowmya Kamath S.',
-        image_path: 'fac-ads/sk-image.jpg',
+        image_path: 'fac-ads/sk-image.webp',
         email: 'sowmyakamath@nitk.edu.in',
         linkedin: '#',
         designation: 'Assistant Professor'
     },
     {
         name: 'Dr. Suprabha K. R.',
-        image_path: 'fac-ads/suprabha-k-r-image.jpg',
+        image_path: 'fac-ads/suprabha-k-r-image.webp',
         email: 'suprabha@nitk.ac.in',
         linkedin: '#',
         designation: 'Assistant Professor'
@@ -590,7 +571,16 @@ let student_info =
   "Profile_photo": "https:\/\/drive.google.com\/open?id=1TmjQGDhtLeHztH0gopH4Q-0_nmRSuLqV",
   "Profile_photo_url": "photo_2022-02-11_22-34-02 - RAVINDRA NATH GAUTAM.jpg",
   "Profile_Photo_name": "photo_2022-02-11_22-34-02 - RAVINDRA NATH GAUTAM"
- }
+},
+{
+  "Timestamp": "2\/13\/2022 14:15:16",
+  "Name": "Ramyashree G K",
+  "Email_id": "gkramyashree.181cv112@nitk.edu.in",
+  "LinkedIn_profile": "https:\/\/www.linkedin.com\/in\/ramyashree-g-k-0002b616b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BM8JCkyGtQYuzMTmDKLEFZQ%3D%3D",
+  "Profile_photo": "https:\/\/drive.google.com\/open?id=1QT7oxAVwE1mTBvTuZmrs1kz8W7c9vcw7",
+  "Profile_photo_url": "Ramya pic (1) - RAMYA SHREE G K.jpeg",
+  "Profile_Photo_name": "Ramya pic (1) - RAMYA SHREE G K"
+}
 ]
 
 
