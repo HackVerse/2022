@@ -35,7 +35,7 @@ let adv_info = [
     },
     {
         name: 'Prof. K. S. Babu Narayan',
-        image_path: 'adv-com/#',
+        image_path: 'adv-com/KSBN.webp',
         email: 'dean_pd@nitk.edu.in',
         linkedin: '#',
         designation: 'Dean Planning & Development'
