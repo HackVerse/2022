@@ -1,13 +1,7 @@
 var link = "https://google.com"
 var name = "FirstName LastName"
 
-let p_info = [{
-        name: 'Dr.K.Balaveera Reddy',
-        image_path: 'patrons/chairman.webp',
-        email: '#',
-        linkedin: '#',
-        designation: 'Chairman BOG'
-    },
+let p_info = [
     {
         name: 'Prof. Udaykumar R. Yaragatti',
         image_path: 'patrons/Director.webp',
@@ -17,13 +11,7 @@ let p_info = [{
     }
 ]
 
-let adv_info = [/*{
-        name: 'Prof. Ananthanarayana V.S.',
-        image_path: 'adv-com/anvs.jpg',
-        email: 'dydirector@nitk.edu.in',
-        linkedin: '#',
-        designation: 'Deputy Director'
-    },*/
+let adv_info = [
     {
         name: 'Prof. Vidya Shetty',
         image_path: 'adv-com/vidyashetty.webp',
