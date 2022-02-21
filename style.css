@@ -485,7 +485,8 @@ section {
 /* Float three columns side by side */
 .column {
   float: left;
-  width: 33.33%;
+  /* width: 33.33%; */
+  /* height: 400px; */
   padding: 0 10px;
   display: flex;
   flex: 1;
@@ -523,7 +524,8 @@ section {
 }
 #prizes .front > img {
   padding: 30px 10px;
-  height: 256px;
+  /* height: 256px; */
+  width: auto;
   /* width: 300px; */
   object-fit: fill;
   /* margin: 0px 10px; */
@@ -570,22 +572,40 @@ section {
   padding: 10px;
 }
 #prizes .back {
-  overflow-y: scroll;
+  overflow-y: auto;
   /* background-image: url('./img/bg_stars.png'); */
   color: black;
   font-size: larger;
+  text-align: left;
   /* background-color: sienna; */
   /* padding: 20px 2px; */
   /* margin: 10px 10px 10px 10px; */
+}
+
+.special .card {
+  margin: 20px 12px;
+}
+
+#prizes .description {
+  padding: 32px 16px;
+}
+
+#prizes .description ul {
+  font-size: 1rem;
+}
+
+#prizes .description small {
+  font-size: 0.75rem;
+  text-align: left;
 }
 
 .from-left {
   top: 0;
   left: -100%;
 }
-/* .card:hover .content .from-left {
-   left:0%;
-} */
+.card:hover .content .from-left {
+  left: 0%;
+}
 #prizes .content {
   background-image: url("./img/bg_stars2.webp");
 }
@@ -593,30 +613,47 @@ section {
   top: 100%;
   left: 0;
 }
-/* .card:hover .content .from-bottom {
-   top:0%;
-} */
+.card:hover .content .from-bottom {
+  top: 0%;
+}
 
 .from-right {
   top: 0%;
   right: -100%;
 }
-/* .card:hover .content .from-right {
-   right:0;
-} */
+.card:hover .content .from-right {
+  right: 0;
+}
 
 #prizes .card {
   width: 300px;
 }
 
-#prizes .row :nth-child(2) {
+.logo_saction {
+  border-radius: 12px;
+  background-color: #72ddbf;
+}
+
+#prizes .special .card,
+#prizes .special .content,
+#prizes .special .back {
+  border-radius: 18px;
+}
+
+#prizes .special .front > span {
+  background-color: #212529;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* #prizes .row :nth-child(2) {
   position: relative;
   top: -20px;
-}
+} */
 
 /* Tracks Section */
 
-.tracks{
+.tracks {
   min-height: 80vh;
   background-image: url("./img/bg_stars2.webp");
   background-size: cover;
@@ -624,47 +661,59 @@ section {
   color: #d1e5dc;
 }
 
-.tracks .row{
+.tracks .row {
   column-gap: 16px;
   row-gap: 32px;
 }
 
-.tracks .card-img-top{
+.tracks .card-img-top {
   height: 80%;
   width: auto;
   transition: all 0.6s;
 }
 
-.tracks .card-img-top:hover{
+.tracks .card-img-top:hover {
   transform: scale(0.9);
 }
 
-.card-img{
+.card-img {
   padding: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.tracks .card{
+.tracks .card {
+  border-radius: 32px;
   background-color: #09428b56;
   min-height: 356px;
 }
 
-.tracks .card-text{
+.tracks .card-text {
   text-align: left;
   font-size: 1rem;
 }
 
-.tracks .card-title{
+.tracks .card-title {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
 }
 
-.tracks .list-group-item{
+.tracks .list-group-item {
   background-color: rgba(255, 255, 255, 0.26);
   text-align: center;
   font-weight: bold;
   font-size: 1.15rem;
+}
+
+.tracks .list-group:last-child {
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.tracks .list-group-item.special {
+  font-size: 1rem;
+  text-align: left;
+  font-weight: normal;
 }
