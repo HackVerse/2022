@@ -103,19 +103,19 @@
   }
 
   /* Events Section */
-  .carousel button span{
+  .carousel button span {
     display: none;
   }
 
-  .carousel .card-body{
+  .carousel .card-body {
     font-size: 16px;
   }
 
-  .carousel .btn{
+  .carousel .btn {
     width: 100%;
   }
 
-  .carousel p{
+  .carousel p {
     text-align: left;
   }
 
@@ -198,28 +198,33 @@
     width: 130px;
   }
 
-  #prizes .column{
+  #prizes .column {
     margin-bottom: 32px;
   }
 
-  #prizes .row :nth-child(1){
+  #prizes .row :nth-child(1) {
     order: 2;
   }
-  
-  #prizes .row :nth-child(2){
+
+  #prizes .row :nth-child(2) {
     order: 1;
     position: static;
   }
-  
-  #prizes .row :nth-child(3){
+
+  #prizes .row :nth-child(3) {
     order: 3;
   }
 
-  #prizes .column{
+  #prizes .column {
     width: 100%;
   }
 
-  #track .card{
+  #track .card {
     height: auto;
+  }
+  .dropdown-menu {
+    border: none;
+    box-shadow: none;
+    background: transparent;
   }
 }

@@ -86,6 +86,17 @@ button:focus {
   justify-content: center;
 }
 
+.dropdown-menu {
+  background: #021f3b;
+  color: #d1e5dc;
+  font-family: Poppins;
+}
+
+.dropdown-item:hover {
+  background: #021f3b;
+  color: #d1e5dc;
+}
+
 .register {
   color: white;
   margin-top: 32px;

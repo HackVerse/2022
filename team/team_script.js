@@ -7,7 +7,7 @@ let p_info = [
         image_path: 'patrons/Director.webp',
         email: 'director@nitk.ac.in',
         linkedin: 'https://www.linkedin.com/in/udaykumar-r-yaragatti-559a1514/',
-        designation: 'Director'
+        designation: 'Director in-charge'
     }
 ]
 
