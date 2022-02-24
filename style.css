@@ -666,7 +666,7 @@ section {
 
 .tracks {
   min-height: 80vh;
-  background-image: url("./img/bg_stars2.webp");
+  background-image: url("./img/bg_stars.webp");
   background-size: cover;
   background-repeat: no-repeat;
   color: #d1e5dc;

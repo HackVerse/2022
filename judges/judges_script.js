@@ -28,11 +28,11 @@ let judges_info = [
         designation: 'BackEnd SDE-2 @ Koo | Ex-Senior Backend Engineer @ MoEngage | Ex Software Developer Intern @ SAP Labs India | Ex Open Source Developer @ Mozilla'
     },
     {
-        name: '<to be added>',
-        image_path: '',
-        email: '',
-        linkedin: '',
-        designation: ''
+        name: 'Suresh Reddy',
+        image_path: 'Suresh_Reddy.webp',
+        email: 'suresh.reddy@wellsfargo.com',
+        linkedin: 'https://www.linkedin.com/in/suresh-reddy-7545842b/',
+        designation: 'Distinguished Engineer - Digital and Innovation @ Wells Fargo | Ex-Lead @ CSC | Ex-Senior IT Engineer @CMC Limited'
     },
 
 ]
@@ -41,9 +41,9 @@ function insert_in_div(insert_div, persons) {
     persons.forEach((person) => {
         if (person.designation === undefined) person.designation = ''
         div_text = `
-        <div class="col-12 col-sm-6 col-lg-4 teams mx-auto">
+        <div class="col-12 col-sm-6 col-lg-4 teams">
 
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
           <div class="card-top">
           <!-- Profile_photo -->
           <div class="pic">

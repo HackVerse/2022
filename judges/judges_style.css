@@ -5,8 +5,8 @@
 #judges-section {
   min-height: 80vh;
   background-color: #041c3c;
+  background-image: url("../img/bg_stars.webp");
   background-size: cover;
-  background-size: contain;
   background-repeat: no-repeat;
   color: #d1e5dc;
 }
@@ -151,8 +151,8 @@
   padding-top: 30px;
 }
 
-#judges-section @media screen and (max-width: 768px) {
-  .section-padding-100 {
+@media screen and (max-width: 768px) {
+  #judges-section .section-padding-100 {
     padding-top: 90px;
   }
 }
