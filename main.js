@@ -54,10 +54,10 @@ $(window).on("load", function () {
   $(".last-rs").next().hide();
 })
 
-$(".active-now").next().slideToggle();
-      $(".row4").next().slideToggle();
-      $(".member-title").click(function(e) {
-        console.log("Clicked");
-        $(this).next().slideToggle();
-        $(this).next().next().next().slideToggle();
-      })
+// $(".active-now").next().slideToggle();
+//       $(".row4").next().slideToggle();
+//       $(".member-title").click(function(e) {
+//         console.log("Clicked");
+//         $(this).next().slideToggle();
+//         $(this).next().next().next().slideToggle();
+//       })
