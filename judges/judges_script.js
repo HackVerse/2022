@@ -7,6 +7,13 @@ let judges_info = [
         designation: 'Technology Evangelist | Open Source Evangelist | Ex Technical Director @ Oracle India Pvt. Ltd'
     },
     {
+        name: 'Suresh Reddy',
+        image_path: 'Suresh_Reddy.webp',
+        email: 'suresh.reddy@wellsfargo.com',
+        linkedin: 'https://www.linkedin.com/in/suresh-reddy-7545842b/',
+        designation: 'Distinguished Engineer - Digital and Innovation @ Wells Fargo | Ex-Lead @ CSC | Ex-Senior IT Engineer @CMC Limited'
+    },
+    {
         name: 'Anjali Sheel',
         image_path: 'Anjali_Sheel.webp',
         email: 'anjalisheel@gmail.com',
@@ -27,13 +34,7 @@ let judges_info = [
         linkedin: 'https://www.linkedin.com/in/rahul-verma-8aa59b116/',
         designation: 'BackEnd SDE-2 @ Koo | Ex-Senior Backend Engineer @ MoEngage | Ex Software Developer Intern @ SAP Labs India | Ex Open Source Developer @ Mozilla'
     },
-    {
-        name: 'Suresh Reddy',
-        image_path: 'Suresh_Reddy.webp',
-        email: 'suresh.reddy@wellsfargo.com',
-        linkedin: 'https://www.linkedin.com/in/suresh-reddy-7545842b/',
-        designation: 'Distinguished Engineer - Digital and Innovation @ Wells Fargo | Ex-Lead @ CSC | Ex-Senior IT Engineer @CMC Limited'
-    },
+    
 
 ]
 
