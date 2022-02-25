@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #041c3c;
+  /* background-color: #041c3c; */
+  background-image: url("../img/bg_stars.webp");
   color: white;
   min-height: 100vh;
   /* display:flex;
@@ -152,7 +153,7 @@ p {
 
 .card {
   /* background:#24435b; */
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.12);
 }
 .card .pic {
   padding: 10px;

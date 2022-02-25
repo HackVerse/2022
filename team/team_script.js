@@ -639,7 +639,7 @@ function insert_in_div(insert_div, persons) {
         div_text = `
         <div class="col-12 col-sm-6 col-lg-3 teams">
 
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
           <div class="card-top">
           <!-- Profile_photo -->
           <div class="pic">
@@ -676,7 +676,7 @@ function insert_in_div_students(insert_div, persons) {
         div_text1 =
               `
               <div class="col-12 col-sm-6 col-lg-3 teams">
-              <div class="card">
+              <div class="card" data-aos="zoom-in">
               <div class="card-top">
               <!-- Profile_photo -->
               <div class="pic">
