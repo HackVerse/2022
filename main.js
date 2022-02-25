@@ -51,4 +51,13 @@ $(window).on("load", function () {
   else {
     $("head").append($("<link rel='stylesheet' href='https://codepen.io/DXC/pen/6e5e17a21aa0f1f0df762d0c800aee8b.css' type='text/css' media='screen' />"));
   }
+  $(".last-rs").next().hide();
 })
+
+// $(".active-now").next().slideToggle();
+//       $(".row4").next().slideToggle();
+//       $(".member-title").click(function(e) {
+//         console.log("Clicked");
+//         $(this).next().slideToggle();
+//         $(this).next().next().next().slideToggle();
+//       })
