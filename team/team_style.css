@@ -33,10 +33,10 @@ p {
   text-align: center;
 
   justify-content: space-between;
-  width: 250px;
+  width: 400px;
   height: 350px;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 50px;
+  border-radius: 30px;
   animation: animate 4s linear infinite forwards;
 }
 
